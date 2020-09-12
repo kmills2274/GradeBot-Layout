@@ -26,7 +26,7 @@
 	-webkit-text-fill-color: transparent; }
 	.section-title .subtitle:before, 
 	.section-title .subtitle:after {
-		color: #acb6e5;
+		color: white;
 		text-shadow: 15px 0 #acb6e5;
 	}
 	.breadcrumb-section .breadcrumb-item {

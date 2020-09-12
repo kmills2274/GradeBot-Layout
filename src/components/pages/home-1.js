@@ -1,4 +1,5 @@
 import React from 'react';
+import Video from '../layouts/background_video';
 import Landing from '../layouts/particles';
 import Header from '../layouts/header';
 import Slider from '../layouts/slider';
@@ -18,13 +19,14 @@ class HomeOne extends React.Component {
         return (
             <div className="Genius-Course">
                 <Header />
-                <Landing />
-                <Slider />
+                
+                <Video />
                 <AboutUs />
                 <WhyChooseUs />
                 <LatestNews />
                 <CourseTeacher />
                 <FAQ />
+                <Landing />
                 <CourseCategory />
                 <ContactArea />
                 <Footer />

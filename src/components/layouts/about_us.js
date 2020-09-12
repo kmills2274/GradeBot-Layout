@@ -11,11 +11,11 @@ class AboutUs extends React.Component {
             <div className="col-md-5">
               <div className="about-resigter-form backgroud-style relative-position">
                 <div className="register-content">
-                  <div className="register-fomr-title text-center">
-                    <h3 className="bold-font">
-                      <span>Get a</span> Free Registration.
+                  <div className="register-form-title text-center">
+                    <h3 className="register-font">
+                      <span>Register </span> with us now!
                     </h3>
-                    <p>More Than 122K Online Available Courses</p>
+                    <p>Fill out the form below.</p>
                   </div>
                   <div className="register-form-area">
                     <form
@@ -29,7 +29,7 @@ class AboutUs extends React.Component {
                           className="name"
                           name="name"
                           type="text"
-                          placeholder="Your Name."
+                          placeholder="Your Name"
                         />
                       </div>
                       <div className="contact-info">
@@ -45,25 +45,25 @@ class AboutUs extends React.Component {
                           className="email"
                           name="email"
                           type="email"
-                          placeholder="Email Address."
+                          placeholder="Email Address"
                         />
                       </div>
                       <select>
                         <option value={9}>
-                          Select Course.
+                          Select Role
                         </option>
-                        <option value={10}>Web Design</option>
-                        <option value={11}>Web Development</option>
-                        <option value={12}>Php Core</option>
+                        <option value={10}>Student</option>
+                        <option value={11}>Teacher</option>
+                        <option value={12}>Admin</option>
                       </select>
                       <div className="contact-info">
                         <input
                           type="text"
                           id="datepicker"
-                          placeholder="Date."
+                          placeholder="Grade"
                         />
                       </div>
-                      <textarea placeholder="Message." defaultValue={""} />
+                      <textarea placeholder="Message" defaultValue={""} />
                       <div className="nws-button text-uppercase text-center white text-capitalize">
                         <button type="submit" value="Submit">
                           SUBMIT REQUEST{" "}
@@ -84,11 +84,11 @@ class AboutUs extends React.Component {
                   <span className="subtitle ml42 text-uppercase">
                     ABOUT US
                   </span>
-                  <h2>
+                  <h2 className="about-subtext text-white">
                     We are <span>GRADEBOT  </span>
                       Online Learning Management System
                   </h2>
-                  <p>
+                  <p className="text-white">
                     We take our mission of increasing global access to quality
                     education seriously. We connect learners to the best
                     universities and institutions from around the world.
