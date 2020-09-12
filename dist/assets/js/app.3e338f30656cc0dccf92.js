@@ -113,7 +113,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "e97ebb951bdc2bb7fd16";
+/******/ 	var hotCurrentHash = "3e338f30656cc0dccf92";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2813,7 +2813,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! /Users/kmills/Desktop/GradeBot-App-Design/gradebot-design/GradeBot-Template/genius-course-react/node_modules/webpack-dev-server/client/index.js?http://localhost:3000 */\"./node_modules/webpack-dev-server/client/index.js?http://localhost:3000\");\n__webpack_require__(/*! /Users/kmills/Desktop/GradeBot-App-Design/gradebot-design/GradeBot-Template/genius-course-react/node_modules/webpack/hot/dev-server.js */\"./node_modules/webpack/hot/dev-server.js\");\nmodule.exports = __webpack_require__(/*! ./src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_(webpack)-dev-server/client?");
+eval("__webpack_require__(/*! /Users/kmills/Desktop/GradeBot-App-Design/gradebot-design/GradeBot-Template/gradebot-react/node_modules/webpack-dev-server/client/index.js?http://localhost:3000 */\"./node_modules/webpack-dev-server/client/index.js?http://localhost:3000\");\n__webpack_require__(/*! /Users/kmills/Desktop/GradeBot-App-Design/gradebot-design/GradeBot-Template/gradebot-react/node_modules/webpack/hot/dev-server.js */\"./node_modules/webpack/hot/dev-server.js\");\nmodule.exports = __webpack_require__(/*! ./src/index.js */\"./src/index.js\");\n\n\n//# sourceURL=webpack:///multi_(webpack)-dev-server/client?");
 
 /***/ })
 
